@@ -1,6 +1,6 @@
-# rsvmukhesh.com — Personal Website
+# mukheshrsv.com — Personal Website
 
-Static personal portfolio site. Hosted free on **GitHub Pages** with custom domain `rsvmukhesh.com`.
+Static personal portfolio site. Hosted free on **GitHub Pages** with custom domain `mukheshrsv.com`.
 
 ## Deploy in 5 steps
 
@@ -14,7 +14,7 @@ Static personal portfolio site. Hosted free on **GitHub Pages** with custom doma
    git push -u origin main
    ```
 3. **Enable GitHub Pages** → repo Settings → Pages → Source: `main` branch, `/ (root)`.
-4. **Point your domain DNS** (wherever rsvmukhesh.com is registered) — add these records:
+4. **Point your domain DNS** (wherever mukheshrsv.com is registered) — add these records:
    | Type  | Name | Value               |
    |-------|------|---------------------|
    | A     | @    | 185.199.108.153     |
@@ -22,9 +22,9 @@ Static personal portfolio site. Hosted free on **GitHub Pages** with custom doma
    | A     | @    | 185.199.110.153     |
    | A     | @    | 185.199.111.153     |
    | CNAME | www  | rsvmukhesh.github.io |
-5. Back in GitHub Pages settings, enter `rsvmukhesh.com` as the custom domain and **enable HTTPS**.
+5. Back in GitHub Pages settings, enter `mukheshrsv.com` as the custom domain and **enable HTTPS**.
 
-DNS propagation takes 5–30 minutes. After that, `https://rsvmukhesh.com` is live — free forever.
+DNS propagation takes 5–30 minutes. After that, `https://mukheshrsv.com` is live — free forever.
 
 ## Local preview
 
