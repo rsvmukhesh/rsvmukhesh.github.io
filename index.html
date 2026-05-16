@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mukhesh R S V — AI Automation Engineer</title>
+  <meta name="description" content="Mukhesh R S V – AI Automation Engineer specializing in quality engineering for AI-enabled and data-driven enterprise systems." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ─── NAV ─── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">M<span>.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <i class="fas fa-moon"></i>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─── -->
+  <section id="hero">
+    <canvas id="particleCanvas"></canvas>
+    <div class="hero-content">
+      <p class="hero-greeting">Hi, I'm</p>
+      <h1 class="hero-name">Mukhesh R S V</h1>
+      <div class="hero-role">
+        <span class="role-prefix">I build </span>
+        <span class="typed-text" id="typedText"></span>
+        <span class="typed-cursor">|</span>
+      </div>
+      <p class="hero-sub">AI Automation Engineer · Toronto, ON</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+        <a href="https://github.com/rsvmukhesh" target="_blank" class="btn btn-icon" aria-label="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/mukhesh-r-s-v-77ab27240/" target="_blank" class="btn btn-icon" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="mailto:rsvmukhesh@gmail.com" class="btn btn-icon" aria-label="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+    <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">About Me</h2>
+      <div class="about-grid reveal">
+        <div class="about-text">
+          <p>
+            I'm an <strong>AI Automation Engineer</strong> at CGI, specializing in quality engineering for
+            AI-enabled and data-driven systems within large-scale enterprise environments.
+          </p>
+          <p>
+            My work spans designing automation frameworks, validating AI/ML platform capabilities, and
+            contributing to AI defence testing strategies — ensuring robust, responsible AI delivery at scale.
+          </p>
+          <p>
+            I hold a <strong>Master of Engineering in Artificial Intelligence</strong> from Toronto
+            Metropolitan University and bring hands-on expertise in LangChain, LangGraph, MCP servers,
+            multi-agent systems, and cloud platforms (AWS, Azure, Snowflake).
+          </p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num">3</span><span class="stat-label">Cloud Certifications</span></div>
+            <div class="stat"><span class="stat-num">9+</span><span class="stat-label">Projects Built</span></div>
+            <div class="stat"><span class="stat-num">MEng</span><span class="stat-label">in AI · TMU</span></div>
+          </div>
+        </div>
+        <div class="about-card-wrap">
+          <div class="about-card">
+            <div class="card-glow"></div>
+            <div class="about-avatar">
+              <img src="assets/profile.jpg" alt="Mukhesh R S V" class="profile-photo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+              <span class="profile-fallback"><i class="fas fa-user"></i></span>
+            </div>
+            <div class="about-card-links">
+              <a href="mailto:rsvmukhesh@gmail.com"><i class="fas fa-envelope"></i> rsvmukhesh@gmail.com</a>
+              <a href="tel:+14376634771"><i class="fas fa-phone"></i> +1 (437) 663-4771</a>
+              <a href="https://github.com/rsvmukhesh" target="_blank"><i class="fab fa-github"></i> github/rsvmukhesh</a>
+              <a href="https://www.linkedin.com/in/mukhesh-r-s-v-77ab27240/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+              <span><i class="fas fa-map-marker-alt"></i> Toronto, ON, Canada</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── EXPERIENCE ─── -->
+  <section id="experience" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tc-header">
+              <div>
+                <h3>AI Automation Engineer</h3>
+                <span class="tc-company">CGI</span>
+              </div>
+              <span class="tc-date">Oct 2025 – Present</span>
+            </div>
+            <ul class="tc-bullets">
+              <li>Own end-to-end test automation and quality assurance for enterprise-scale AI-enabled applications, ensuring functional correctness, data accuracy, and regression stability.</li>
+              <li>Design, develop, and maintain automation frameworks using Java, Python, SQL, API testing, and CI/CD pipelines to validate system integrations and backend workflows.</li>
+              <li>Led comprehensive testing for newly introduced AI/ML platform capabilities (e.g., MCP server), validating functionality, integration readiness, performance, and reliability.</li>
+              <li>Contributed to defining a testing strategy for AI defence mechanisms, supporting validation of model robustness and responsible AI behaviour across AI-enabled systems.</li>
+              <li>Serve as the testing SME for AI use cases, collaborating with business and technical stakeholders to assess impact, identify risks, and drive effective mitigation.</li>
+            </ul>
+            <div class="tc-tags">
+              <span>Java</span><span>Python</span><span>SQL</span><span>CI/CD</span><span>MCP Server</span><span>AI Testing</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tc-header">
+              <div>
+                <h3>Graduate Assistant</h3>
+                <span class="tc-company">Toronto Metropolitan University</span>
+              </div>
+              <span class="tc-date">Jan 2024 – Jun 2025</span>
+            </div>
+            <ul class="tc-bullets">
+              <li>Supported courses COE328, COE628, BME808, ITM200, and CIND830 — overseeing projects, labs, assignments, case studies, and exams.</li>
+              <li>Provided technical guidance and mentorship to students in lab sessions and tutorials, aiding project development and academic growth.</li>
+            </ul>
+            <div class="tc-tags">
+              <span>Teaching</span><span>Mentoring</span><span>Technical Guidance</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tc-header">
+              <div>
+                <h3>Research Intern</h3>
+                <span class="tc-company">Amrita Centre for Wireless Networks &amp; Applications</span>
+              </div>
+              <span class="tc-date">Jan 2022 – May 2023</span>
+            </div>
+            <ul class="tc-bullets">
+              <li>Collaborated on breast thermogram analysis for early breast cancer detection using deep learning and GradCAM visualization techniques.</li>
+              <li>Applied GradCAM visualization to breast thermogram images, achieving 92.15% classification accuracy in feature identification within thermal images.</li>
+            </ul>
+            <div class="tc-tags">
+              <span>Deep Learning</span><span>GradCAM</span><span>Python</span><span>TensorFlow</span><span>Medical Imaging</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROJECTS ─── -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-card-inner">
+            <div class="project-icon"><i class="fas fa-robot"></i></div>
+            <h3>Intelligent Chatbot for Data Interaction</h3>
+            <p>NLP-powered chatbot using Streamlit and LangChain with autonomous agents for SQL &amp; Python code generation from natural language queries. Integrates GPT-4 with a local MySQL instance, implements memory management, guardrails, and transformer-level optimizations for production-grade performance.</p>
+            <div class="project-tags">
+              <span>Streamlit</span><span>LangChain</span><span>GPT-4</span><span>MySQL</span><span>Prompt Engineering</span><span>Memory Management</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/rsvmukhesh" target="_blank" class="proj-link"><i class="fab fa-github"></i> View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-card-inner">
+            <div class="project-icon"><i class="fas fa-music"></i></div>
+            <h3>Spotify Data Pipeline — AWS &amp; Snowflake</h3>
+            <p>End-to-end automated ETL pipeline that extracts streaming data from the Spotify API using Python, transforms it via AWS Lambda and Glue with CloudWatch-triggered scheduling, and loads it into Snowflake for data warehousing. Connected to Power BI for real-time analytics dashboards.</p>
+            <div class="project-tags">
+              <span>Python</span><span>AWS Lambda</span><span>AWS Glue</span><span>S3</span><span>Snowflake</span><span>Power BI</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/rsvmukhesh/ETL-pipeline" target="_blank" class="proj-link"><i class="fab fa-github"></i> View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-card-inner">
+            <div class="project-icon"><i class="fas fa-search"></i></div>
+            <h3>Search Relevancy System with SBERT</h3>
+            <p>Improved article search experience by leveraging Sentence-BERT (SBERT) embeddings with the ANNOY approximate nearest-neighbour library for fast semantic retrieval. Packaged as a Flask API, containerised with Docker, and deployed on AWS — enabling users to query and retrieve contextually relevant articles at scale.</p>
+            <div class="project-tags">
+              <span>SBERT</span><span>ANNOY</span><span>Flask</span><span>Docker</span><span>AWS</span><span>NLP</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/rsvmukhesh" target="_blank" class="proj-link"><i class="fab fa-github"></i> View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-card-inner">
+            <div class="project-icon"><i class="fas fa-brain"></i></div>
+            <h3>Brain Tumor Segmentation — U-Net</h3>
+            <p>Medical image segmentation pipeline using a U-Net architecture with custom loss functions to delineate tumor boundaries from MRI scans. Achieved 95.15% accuracy with a Dice coefficient of 0.3407 and IoU of 0.2059, demonstrating robust generalization across heterogeneous scan conditions.</p>
+            <div class="project-tags">
+              <span>TensorFlow</span><span>Keras</span><span>PyTorch</span><span>OpenCV</span><span>U-Net</span><span>Medical Imaging</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/rsvmukhesh" target="_blank" class="proj-link"><i class="fab fa-github"></i> View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-card-inner">
+            <div class="project-icon"><i class="fas fa-pills"></i></div>
+            <h3>Medical Information Extraction — T5 Model</h3>
+            <p>Fine-tuned a T5 text-to-text transformer (SimpleT5) for extracting adverse drug events and medication details from unstructured medical text. Leveraged PyTorch Lightning for scalable training, with scikit-learn pipelines for evaluation — enabling automated clinical NLP at scale.</p>
+            <div class="project-tags">
+              <span>T5</span><span>SimpleT5</span><span>PyTorch Lightning</span><span>scikit-learn</span><span>NLP</span><span>Clinical AI</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/rsvmukhesh" target="_blank" class="proj-link"><i class="fab fa-github"></i> View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-card-inner">
+            <div class="project-icon"><i class="fas fa-mask"></i></div>
+            <h3>Face Mask Recognition — CNN</h3>
+            <p>Convolutional neural network for real-time face mask detection across varied environments and lighting conditions. Trained on diverse datasets with data augmentation strategies, achieving 98% classification accuracy. Deployed as an inference pipeline using OpenCV for live video stream processing.</p>
+            <div class="project-tags">
+              <span>TensorFlow</span><span>Keras</span><span>PyTorch</span><span>OpenCV</span><span>CNN</span><span>Computer Vision</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/rsvmukhesh/Face-Mask-Recognition" target="_blank" class="proj-link"><i class="fab fa-github"></i> View on GitHub</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SKILLS ─── -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <h2 class="section-title reveal">Technical Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-group reveal">
+          <div class="sg-header"><i class="fas fa-code"></i> Languages</div>
+          <div class="sg-tags">
+            <span>Python</span><span>SQL</span><span>PySpark</span><span>Java</span><span>C</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="sg-header"><i class="fas fa-brain"></i> AI / ML Frameworks</div>
+          <div class="sg-tags">
+            <span>LangChain</span><span>LangGraph</span><span>LangSmith</span><span>RAG</span>
+            <span>Multi-Agent Systems</span><span>MCP Server</span><span>Prompt Engineering</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="sg-header"><i class="fas fa-cloud"></i> Cloud Platforms</div>
+          <div class="sg-tags">
+            <span>AWS S3</span><span>SageMaker</span><span>RDS</span><span>Glue</span><span>Athena</span>
+            <span>Azure Databricks</span><span>ADLS Gen2</span><span>ADF</span><span>AI Foundry</span>
+            <span>Snowflake</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="sg-header"><i class="fas fa-database"></i> Databases</div>
+          <div class="sg-tags">
+            <span>MySQL</span><span>PostgreSQL</span><span>SQL Server</span>
+          </div>
+        </div>
+
+        <div class="skill-group reveal">
+          <div class="sg-header"><i class="fas fa-tools"></i> DevOps &amp; Tools</div>
+          <div class="sg-tags">
+            <span>CI/CD (Jenkins)</span><span>Git / GitHub</span><span>Playwright</span>
+            <span>n8n</span><span>Datadog</span><span>BDD</span><span>Streamlit</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── EDUCATION ─── -->
+  <section id="education" class="section">
+    <div class="container">
+      <h2 class="section-title reveal">Education</h2>
+      <div class="edu-grid">
+
+        <div class="edu-card reveal">
+          <div class="edu-icon"><i class="fas fa-graduation-cap"></i></div>
+          <div class="edu-body">
+            <h3>MEng – Artificial Intelligence</h3>
+            <p class="edu-inst">Toronto Metropolitan University</p>
+            <p class="edu-detail">CGPA: 3.70 / 4.33 &nbsp;·&nbsp; Sep 2023 – Sep 2025</p>
+          </div>
+        </div>
+
+        <div class="edu-card reveal">
+          <div class="edu-icon"><i class="fas fa-microchip"></i></div>
+          <div class="edu-body">
+            <h3>B.Tech – Electronics &amp; Communication</h3>
+            <p class="edu-inst">Amrita Vishwa Vidyapeetham</p>
+            <p class="edu-detail">CGPA: 8.22 / 10 &nbsp;·&nbsp; Jul 2019 – Aug 2023</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Certifications -->
+      <h2 class="section-title reveal" style="margin-top:4rem">Certifications</h2>
+      <div class="certs-grid">
+
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fab fa-aws"></i></div>
+          <div class="cert-body">
+            <h4>AWS ML Engineer</h4>
+            <p>Amazon Web Services</p>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-layer-group"></i></div>
+          <div class="cert-body">
+            <h4>Databricks Data Engineer</h4>
+            <p>Databricks</p>
+          </div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon"><i class="fas fa-snowflake"></i></div>
+          <div class="cert-body">
+            <h4>SnowPro Core</h4>
+            <p>Snowflake</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ─── -->
+  <section id="contact" class="section section-alt">
+    <div class="container contact-container">
+      <h2 class="section-title reveal">Get In Touch</h2>
+      <p class="contact-sub reveal">I'm open to new opportunities, collaborations, and interesting AI/automation projects. Feel free to reach out.</p>
+      <div class="contact-grid reveal">
+        <a href="mailto:rsvmukhesh@gmail.com" class="contact-card">
+          <i class="fas fa-envelope"></i>
+          <span>rsvmukhesh@gmail.com</span>
+        </a>
+        <a href="tel:+14376634771" class="contact-card">
+          <i class="fas fa-phone"></i>
+          <span>+1 (437) 663-4771</span>
+        </a>
+        <a href="https://github.com/rsvmukhesh" target="_blank" class="contact-card">
+          <i class="fab fa-github"></i>
+          <span>github/rsvmukhesh</span>
+        </a>
+        <a href="https://www.linkedin.com/in/mukhesh-r-s-v-77ab27240/" target="_blank" class="contact-card">
+          <i class="fab fa-linkedin"></i>
+          <span>LinkedIn Profile</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer>
+    <p>Designed &amp; Built by <strong>Mukhesh R S V</strong> · <a href="https://rsvmukhesh.com">rsvmukhesh.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
